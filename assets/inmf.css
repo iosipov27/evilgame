@@ -1,0 +1,1115 @@
+* 
+{
+    margin: 0;
+}
+
+html
+{
+    font-size: 100%;
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .875rem;
+    height: 100%;
+}
+
+#mainDiv
+{
+    min-height: 100%;
+    margin: 0 auto -2.5rem;
+}
+
+#footerAdjust
+{
+    height: 2.5rem;
+}
+
+td
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .875rem;
+}  
+
+.buttontd
+{
+    padding-top: 1.25rem;
+    text-align: center;
+}
+
+.smallcontrol
+{
+    text-align: center;
+    width: 3.125rem;
+}
+
+.smallcontrol2
+{
+    text-align: center;
+    width: 2rem;
+}
+
+.smallcontrol select
+{
+    text-align: center;
+    width: 2.5rem;
+}
+
+button
+{
+    background-color: #714099;
+    border-radius: .75rem;
+    width: 6.25rem;
+    height: 1.875rem;
+    color: white;
+    font-weight: bold;
+    font-size: .875rem;
+}
+
+select
+{
+    font-size: .875rem;
+}
+
+#headerDivOuter
+{
+    max-height: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+
+#headerDiv
+{
+    height: 100%;
+    text-align: center;
+    background-color: #714099;
+    width: 100%;
+    border-radius: .75rem;
+}
+
+#headerDiv img
+{
+    height: 100%;
+}
+
+#footerDiv
+{
+    height: 2.5rem;
+    max-height: 2.5rem;
+    background-color: #714099;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#footerDiv table
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+.footerText
+{
+    padding-left: 1rem;
+    width: 100%;
+    color: white;
+    height: 100%;
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.footerImg
+{
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.footerImg img
+{
+    height: 100%;
+    max-height: 2.2rem;
+    vertical-align: top;
+}
+
+#settingsDiv 
+{
+    text-align: center;
+    padding-top: 1.875rem;
+}
+
+#settingsDiv div
+{
+    width: 18.75rem;
+    display: inline-block;
+    border: 3px solid #714099;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: .625rem;
+}
+
+#settingsDiv2
+{
+    text-align: center;
+    padding-top: 1.875rem;
+}
+
+#settingsDiv2 div
+{
+    width: 31.25rem;
+    display: inline-block;
+    border: 3px solid #714099;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: .625rem;
+}
+
+#settingsDiv2 div table tr td 
+{
+    line-height: 1.875rem;
+}
+
+#settingsDiv2 div table tr td img
+{
+    vertical-align: middle;
+}
+
+#settingsDiv2 div table tr .smallcontrol
+{
+    text-align: right;
+}
+
+.settingsicon
+{
+    width: 1.875rem;
+}
+
+.settingslock
+{
+    width: 1.875rem;
+}
+
+#aspectGrid
+{
+    text-align: center;
+    padding-top: 1.875rem;
+}
+
+.aspectCell
+{
+    display: inline-block;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+.aspectDiv
+{
+    display: inline-block;
+    border: 3px solid #714099;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: .625rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.headingtr td
+{
+    padding-top: .625rem;
+    font-weight: bold;
+}
+
+table
+{
+    margin: 0 auto;
+}
+
+.aspecttable tr td
+{
+    padding-bottom: .3125rem;
+    padding-top: .3175rem;
+}
+
+.aspectnametd
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 7rem;
+}
+
+.approachtd
+{
+    text-align: center;
+    width: 5rem;
+    font-weight: 200;
+}
+
+.approach0
+{
+    color: #D15838;
+}
+
+.approach1
+{
+    color: #00508F;
+}
+
+.approach2
+{
+    color: #138035;
+}
+
+.approach3
+{
+    color: #A70E13;
+}
+
+.approach4
+{
+    color: #C8A008;
+}
+
+.approach5
+{
+    color: #662D91;
+}
+
+.approachgrey
+{
+    color: #B0B0B0;
+}
+
+.col2
+{
+    background-color: #F0F0F0;
+}
+
+.aspecticon
+{
+    width: 1.875rem;
+}
+
+#aspectCardDiv
+{
+    position: fixed;
+    top: 3.125rem;
+    left: 3.125rem;
+    width: 25rem;
+    border: 3px solid #714099;
+    background-color: white;
+    visibility: hidden;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.aspectcardicontd
+{
+    text-align: center;
+}
+
+.aspectcardicon
+{
+    width: 1.875rem;
+}
+
+.aspectcarddice
+{
+    width: 1.875rem;
+}
+
+.aspectcardapproach
+{
+    height: 2rem;
+}
+
+.aspectcardname
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.575rem;
+}
+
+.aspectcardstunt
+{
+    vertical-align: top;
+}
+
+.aspectcardquote
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .875rem;
+    font-style: italic;
+    display: block;
+    padding-bottom: .625rem;
+}
+
+.aspectcardstuntname
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: bold;
+    display: block;
+}
+
+.aspectcardstuntdescription
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .875rem;
+    display: block;
+}
+
+#characterDiv
+{
+    text-align: center;
+}
+
+.charactercard
+{
+    width: 25rem;
+    border: 3px solid #714099;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    height: 27rem;
+    margin: .625rem;
+    padding: .3125rem;
+    vertical-align: top;
+}
+
+.charactercardplayer
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+}
+
+.charactercardaspects
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.225rem;
+    text-align: center;
+}
+
+.charactercarddiceouter
+{
+    vertical-align: top;
+}
+
+.charactercarddicetd
+{
+    text-align: right;
+}
+
+.charactercarddice
+{
+    width: 1.875rem;
+}
+
+.charactercardapproach
+{
+    height: 2rem;
+}
+
+.charactercardstuntname
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: bold;
+    display: block;
+}
+
+.charactercardstuntdescription
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .8rem;
+    display: block;
+    padding-bottom: .3125rem;
+}
+
+#situationDiv
+{
+    text-align: center;
+    vertical-align: top;
+}
+
+.situation
+{
+    text-align: center;
+    vertical-align: top;
+}
+
+.situationcard
+{
+    width: 25rem;
+    border: 3px solid #714099;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    height: 5.625rem;
+    margin: .625rem;
+    padding: .3125rem;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.situationtitle
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    text-align: center
+}
+
+.tWhere
+{
+    color: #A70E13;
+}
+
+.tWhat
+{
+    color: #C8A008;
+}
+
+.tHow
+{
+    color: #00508F;
+}
+
+.situationtext
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .8rem;
+    display: block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#playIconDiv
+{
+    position: absolute;
+    height: 100%;
+    left: 2rem;
+    top: 0rem;
+}
+
+#playIcon
+{
+    height: 100%;
+}
+
+#iconDiv
+{
+    position: absolute;
+    height: 100%;
+    right: 2rem;
+    top: 0rem;
+}
+
+#helpIconDiv
+{
+    height: 100%;
+    float: right;
+}
+
+#helpIcon
+{
+    height: 100%;
+}
+
+#linkIconDiv
+{
+    height: 100%;
+    float: right;
+}
+
+#linkIcon
+{
+    height: 100%;
+}
+
+#optionIconDiv
+{
+    height: 100%;
+    float: right;
+}
+
+#optionsIcon
+{
+    height: 100%;
+}
+
+#redrawDiv
+{
+    height: 100%;
+    float: right;
+}
+
+#redrawIcon
+{
+    height: 100%;
+}
+
+#optionDiv
+{
+    position: absolute;
+    top: 4.375rem;
+    text-align: center;
+    visibility: hidden;
+    width: 100%;
+}
+
+#optionDiv .optionInnerDiv
+{
+    width: 25rem;
+    border: 3px solid #714099;
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+}
+
+.optionsRowHighlight
+{
+    background-color: #9090FF;
+}
+
+#helpDiv
+{
+    position: absolute;
+    top: 4.375rem;
+    text-align: center;
+    visibility: hidden;
+    width: 100%;
+}
+
+#helpDiv .helpInnerDiv
+{
+    width: 25rem;
+    border: 3px solid #714099;
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+}
+
+#helpDiv h1
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    text-align: center
+}
+
+#helpDiv h2
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: bold;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    line-height: 1.875rem;
+    text-align: left;
+    -webkit-margin-after: 0rem;
+}
+
+#helpDiv p
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    line-height: 1.875rem;
+    text-align: left;
+    -webkit-margin-before: 0rem;
+}
+
+#helpDiv img
+{
+    vertical-align: middle;
+}
+
+#linkDiv
+{
+    position: absolute;
+    top: 4.375rem;
+    text-align: center;
+    visibility: hidden;
+    width: 100%;
+}
+
+#linkDiv .linkInnerDiv
+{
+    width: 25rem;
+    border: 3px solid #714099;
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+}
+
+#linkDiv h1
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    text-align: center
+}
+
+.linkImgOuter
+{
+    width: 10rem;
+    display: inline-block;
+}
+
+.linkImgDiv
+{
+    width: 10rem;
+    padding: .5rem;
+    display: block;
+}
+
+.linkImgDiv img
+{
+    width: 100%;
+}
+
+.linkImgOuter2
+{
+    display: block;
+}
+
+.linkImgDiv2
+{
+    width: 5rem;
+    padding: .5rem;
+    display: inline-block;
+}
+
+.linkImgDiv2 img
+{
+    width: 100%;
+}
+
+#fatePointDisplay
+{
+    height: 5.625rem;
+    width: 5.625rem;
+    background-image: url("images/fpd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 2.8rem;
+    color: white;
+    text-align: center;
+}
+
+.consequenceTR
+{
+    background-color: #D0D0D0;
+    height: 1.875rem;
+}
+
+.consequenceTitle
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-align: right;
+    width: 5rem;
+}
+
+.consequenceEffect
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-align: center;
+    width: 1.875rem;
+}
+
+.consequenceName
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-decoration: italic;
+    text-align: left;
+    width: 12.5rem;
+}
+
+#diceButton
+{
+    width: 6.25rem;
+}
+
+#diceFaces
+{
+    width: 12.5rem;
+    text-align: center;
+}
+
+#diceFaces img
+{
+    width: 1.875rem;
+}
+
+#diceBonus
+{
+    width: 3.125rem;
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#diceTotal
+{
+    width: 3.125rem;
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.stressBox
+{
+    width: 3.75rem;
+    height: 3.75rem;
+    background-image: url("images/stress0.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+}
+
+.nameEdit
+{
+    display: inline-block;
+    text-align: right;
+    width: 10%;
+}
+
+.charName
+{
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+}
+
+#stressBoxes
+{
+    display: inline-block;
+    width: 50%;
+}
+
+#stressTable
+{
+    padding-top: .9375rem;
+}
+
+#fatePoints
+{
+    display: inline-block;
+    width: 50%;
+}
+
+.playHeading
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.consInvoke
+{
+    height: 1.875rem;
+    width: 1.875rem;
+    background-image: url("images/invoke.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.consTreat
+{
+    height: 1.875rem;
+    width: 1.875rem;
+    background-image: url("images/heart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+
+.characterLink
+{
+    display: inline-block;
+    text-align: right;
+    width: 10%;
+}
+
+.characterLink img
+{
+    height: .675rem;
+}
+
+.playerName
+{
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+}
+
+#pcDiv
+{
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#playDiv
+{
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#playDivOuter
+{
+    vertical-align: top;
+    text-align: center;
+}
+
+.optionsName
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: .875rem;
+    text-align: center;
+    width: 6rem;
+}
+
+.optionsAspects
+{
+    font-family: 'Skranji', "Arial Black", sans-serif;
+    font-size: .875rem;
+    text-align: center;
+    width: 18rem;
+}
+
+.optionButtontd
+{
+    text-align: center;
+}
+
+.optionButtontd button
+{
+    width: 20%;
+    min-width: 4rem;
+    font-size: .75rem;
+}
+
+.bullet
+{
+    font-family: "Arial", sans-serif;
+}
+
+.attrib
+{
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: .6rem;
+}
+
+@media all and (orientation: portrait)
+{
+    #pcDiv
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    html
+    {
+        font-size: 80%;
+    }
+
+    #headerDivOuter
+    {
+        height: 1.5rem;
+    }
+
+    #headerDiv
+    {    
+        border-radius: .5rem;
+    }
+
+    #footerDivOuter
+    {
+        height: 1.5rem;
+    }
+
+    .footerText
+    {
+        padding-left: .2rem;
+        font-size: .6rem;
+    }
+
+    .footerImg
+    {
+        padding-right: .2rem;
+    }
+    
+    .footerImg img
+    {
+        max-height: 1.3rem;
+    }
+
+    #footerAdjust
+    {
+        height: 1.5rem;
+    }
+
+    #mainDiv
+    {
+        margin: 0 auto -1.5rem;
+    }        
+
+    #helpDiv .helpInnerDiv
+    {
+        width: 24rem;
+    }
+
+    #linkDiv .linkInnerDiv
+    {
+        width: 24rem;
+    }
+
+    #optionDiv  .optionInnerDiv
+    {
+        width: 24rem;
+    }
+
+    .optionButtontd button
+    {
+        font-size: .6rem;
+    }
+
+    #settingsDiv2 div
+    {
+        width: 22rem;
+        padding: .625rem;
+    }
+
+    #playIconDiv
+    {
+        left: 1rem;
+    }
+
+    #iconDiv
+    {
+        right: 1rem;
+    }
+    
+    .smallcontrol select
+    {
+        width: 3.5rem;
+    }
+
+    .playerText
+    {
+        width: 8rem;
+    }
+
+    .playerTextTD
+    {
+        width: 8rem;
+    }
+
+    .playerTextLabel
+    {
+        width: 5rem;
+    }
+
+    #aspectCardDiv
+    {
+        width: 22rem;
+    }        
+
+    .charactercard
+    {
+        width: 19rem;
+        height: 30rem;
+    }        
+
+    .situationcard
+    {
+        width: 22rem;
+    }
+
+    .charactercarddice
+    {
+        width: 1.3rem;
+    }
+
+    .charactercardaspects
+    {
+        font-size: 1.05rem;
+    }
+
+    .charactercardstuntname
+    {
+        font-size: .875rem;
+    }
+    
+    .charactercardstuntdescription
+    {
+        font-size: .75rem;
+    }
+
+    .aspectnametd
+    {
+        font-size: .9rem;
+        width: 6rem;
+    }
+
+    .consequenceTitle
+    {
+        font-size: .875rem;
+        width: 4rem;
+    }
+    
+    .consequenceEffect
+    {
+        font-size: .875rem;
+        width: 1.5rem;
+    }
+
+    #fatePointDisplay
+    {
+        font-size: 2.2rem;
+    }
+
+    #diceFaces img
+    {
+        width: 1.5rem;
+    }
+
+    #diceFaces
+    {
+        width: 7rem;
+    }
+
+    #diceButton
+    {
+        width: 4.5rem;
+    }
+
+    #diceButton button
+    {
+        width: 4rem;
+    }
+}
